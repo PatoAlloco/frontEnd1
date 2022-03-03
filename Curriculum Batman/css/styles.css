@@ -1,0 +1,53 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background: #E6E6E6;
+}
+
+h1, h2{
+    background: #C4C4C4;
+    color: #005677;
+    font-weight: bold;
+    
+}
+
+h1{
+   text-align: center; 
+   font-size: 35px;
+   margin-top: 0px;
+   margin-bottom: 100px;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span{
+    font-weight: bold;
+}
+
+ul{
+    font-style: italic;
+    
+}
+li{
+    line-height: 30px;
+}
+
+.sinpunto{
+    list-style-type: none;
+}
+
+h3{
+    background: #005677;
+    text-align: center; 
+    margin-top: 100px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+
+}

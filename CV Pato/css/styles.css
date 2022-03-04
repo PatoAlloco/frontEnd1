@@ -1,0 +1,90 @@
+.portada{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-image: url(/img/portada.jpg);
+    background-size: cover;
+}
+body{
+    background: #061b57;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;    
+}
+
+.patobasquet{
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%; 
+}
+
+header{
+    background: #061b57;
+}
+
+.link{
+    color: #8bd6e0;
+    margin-right: 20px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+h1, h2{
+    
+    color: #8bd6e0;
+    font-weight: bold;
+    
+}
+
+h1{
+   text-align: center; 
+   font-size: 35px;
+   margin-top: 0px;
+   margin-bottom: 100px;
+}
+
+.items{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+html{
+    font-family: 'Roboto Condensed', sans-serif;}
+
+span{
+    font-weight: bold;
+}
+
+ul{
+    font-style: italic;
+    
+}
+li{
+    line-height: 30px;
+}
+
+.sinpunto{
+    list-style-type: none;
+}
+
+.redes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.git{
+    width: 20px;
+    background-color: #FFFFFF;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}

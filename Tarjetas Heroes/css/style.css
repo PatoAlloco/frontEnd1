@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+}
+
+.descuento{
+    background: #1CD1B0;
+    /*text-align: left;
+    color: black;*/
+    padding: 10px;
+    font-weight: 300;
+    /*margin-bottom: 0%;*/
+}
+
+.titulo{
+    background: #00669F;
+    padding: 0 25px;
+    font-size: 55px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin-bottom: 80px;
+    font-weight:200;
+}
+
+.card-container {
+    display: inline-block;
+    margin: 30px auto;
+}
+
+.tarjeta{
+    display: inline-block;
+    width: 25%;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #ccc;   
+    margin: 0 20px;    
+}
+
+.batman-bg {
+    background-image: url(/img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+}
+
+.harley-bg {
+    background-image: url(/img/849bfede3a5193c34ab8a00379e64fa2\ 1\ \(1\).png);
+}
+
+.portada{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    
+}
+
+.corazon{
+    position: absolute;
+    /*z-index: 10;*/
+    top: 12px;
+    left: 12px;
+}
+
+.perfil{
+    position: absolute;
+    border-radius: 50%; /*foto redonda*/
+    bottom: -25%;/*bajo la foto*/
+    left: 50%; /*movio la foto*/
+    transform: translateX(-50%);/*centro la foto*/
+}
+
+.infoHeroe{
+    padding: 50px 10px 30px;
+}
+
+.heroe-title, .heroe-description {
+    margin: 10px 0;
+}
+
+button{
+    display: block;
+    margin: auto;
+    background-color: #00669F;
+    border: none;
+    color: #fff;
+    padding: 12px 32px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+footer{
+    padding: 12px 6px;
+    background-color: #00669F;
+    color: #fff;
+}

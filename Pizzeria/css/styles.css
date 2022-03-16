@@ -55,6 +55,11 @@ li {
     list-style: none;    
     margin: 5px;    
 }
+.item-pizza  {
+    display: block;
+    color: black;
+    list-style: decimal;
+}
 
 section{
     background: #E5E5E5;
@@ -79,10 +84,28 @@ section{
     width: 45%;
     height: 400px;
     background-color: #fff;
-    display: inline-block;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    
+}
+.item-cuadro2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lista {
+    
+}
+.pizzita{
+   
+}
+
+h2{
+
+    font-size: xx-large;
+    text-align: center;
 }
 
 h1{
@@ -97,4 +120,16 @@ h1{
 
 span{
     color: #fff;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #222222;
+    padding: 15px;
+}
+ol{
+    display: block;
 }

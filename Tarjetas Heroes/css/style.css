@@ -29,9 +29,11 @@ body{
     font-weight:200;
 }
 
-.card-container {
-    display: inline-block;
-    margin: 30px auto;
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .tarjeta{
@@ -97,4 +99,18 @@ footer{
     padding: 12px 6px;
     background-color: #00669F;
     color: #fff;
+}
+
+@media (max-width: 480px ){
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+       
+      
+    }
+    .tarjeta{
+        width: 400px;
+    }
 }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Inter:wght@300;700&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>20% de descuento en todos los productos!</h2>
+        <div class="header2">
+            <img src="/img/Logo.png" alt="Logo">
+            <h1>Super Heroes</h1>
+        </div>
+        <ul class="header3">
+            <li>Contacto</li>
+            <li>Registro</li>
+            <li>Ingresar</li>
+        </ul>
+    </header>
+    <main>
+        
+        <form action="" class="container">
+            <section class="titulo-form">
+                <p class="p-titulo">Agrega tu Super</p>
+                <p class="p-sutitulo">Agrega tu personaje favorito completando las opciones </p>
+            </section>
+                <div class="row">
+                    <section class="columnaA">
+                    <div class="nombre">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" class="campo">
+                    </div>
+                    <div>
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha" id="fecha" class="campo">
+                    </div>                
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>                
+                    </section>
+
+                    <section class="columnaB">
+                    <div class="especie">
+                        <label for="especie">Especie</label>
+                        <select name="especie" id="especie" class="campo">
+                            <option value="marvel">Marvel</option>
+                            <option value="DC">DC</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="foto">
+                        <label for="foto">Foto</label>
+                        <input type="file" name="foto" id="foto">
+                    </div>
+                    <div class="check">
+                        <p>Poderes</p>
+                        <input type="checkbox" name="volar" id="volar"> 
+                        <label for="poderes">Volar</label>
+                        <input type="checkbox" name="inteligencia" id="inteligencia">
+                        <label for="poderes">Superinteligencia</label>
+                        <input type="checkbox" name="laser" id="laser">
+                        <label for="poderes">Vista de rayo laser</label>
+                        <input type="checkbox" name="billetera" id="billetera">
+                        <label for="poderes">Billetera gorda</label>                    
+                    </div>
+                    <hr>
+                    <div class="radio">
+                        <p>Tipo de personaje</p>
+                        <input type="radio" name="hero" id="hero">
+                        <label for="hero">Heroe</label>
+                        <input type="radio" name="villano" id="villano">
+                        <label for="hero">Villano</label>
+                    </div>
+                    </section>
+                </div>
+            <section>
+                <button type="button">Anadir</button>
+            </section>
+        </form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a Front</p>
+    </footer>
+</body>
+</html>

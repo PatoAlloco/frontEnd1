@@ -42,7 +42,7 @@
                         <label for="fecha">Fecha</label>
                         <input type="date" name="fecha" id="fecha" class="campo">
                     </div>                
-                    <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>                
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>                
                     </section>
 
                     <section class="columnaB">
@@ -54,33 +54,45 @@
                             <option value="otro">Otro</option>
                         </select>
                     </div>
-                    <div class="foto">
+                    <div >
                         <label for="foto">Foto</label>
-                        <input type="file" name="foto" id="foto">
+                        <input type="file" name="foto" id="foto" class="foto">
                     </div>
                     <div class="check">
-                        <p>Poderes</p>
-                        <input type="checkbox" name="volar" id="volar"> 
-                        <label for="poderes">Volar</label>
-                        <input type="checkbox" name="inteligencia" id="inteligencia">
-                        <label for="poderes">Superinteligencia</label>
-                        <input type="checkbox" name="laser" id="laser">
-                        <label for="poderes">Vista de rayo laser</label>
-                        <input type="checkbox" name="billetera" id="billetera">
-                        <label for="poderes">Billetera gorda</label>                    
+                        <p class="p-check">Poderes</p>
+                        <div>
+                            <input type="checkbox" name="volar" id="volar"> 
+                            <label for="poderes">Volar</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="inteligencia" id="inteligencia">
+                            <label for="poderes">Super Inteligencia</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="laser" id="laser">
+                            <label for="poderes">Vista de rayo laser</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="billetera" id="billetera">
+                            <label for="poderes">Billetera gorda</label>
+                        </div>                   
                     </div>
                     <hr>
                     <div class="radio">
-                        <p>Tipo de personaje</p>
-                        <input type="radio" name="hero" id="hero">
-                        <label for="hero">Heroe</label>
-                        <input type="radio" name="villano" id="villano">
-                        <label for="hero">Villano</label>
+                        <p class="p-check">Tipo de personaje</p>
+                        <div>
+                            <input type="radio" name="hero" id="hero">
+                            <label for="hero">Heroe</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="villano" id="villano">
+                            <label for="hero">Villano</label>
+                        </div>                       
                     </div>
                     </section>
                 </div>
             <section>
-                <button type="button">Anadir</button>
+                <button type="button">Añadir</button>
             </section>
         </form>
     </main>

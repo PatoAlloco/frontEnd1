@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+/*========HEADER==========*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(249, 249, 249);
+    padding: 35px 45px;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+header nav ul li{   
+  /**/      
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #242E52;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500 normal;
+    margin: 24px;
+}
+header button{
+    background: #F3603B;
+    border: none;
+    padding: 10px;
+    width: 134px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500 normal;
+    font-style: normal;
+}

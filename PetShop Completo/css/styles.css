@@ -155,6 +155,7 @@ input{
     background: #3C2313;
     width: 340px;
     height: 40px;
+    border: none;
     border-radius: 15px;
     padding: 10px;
     font-size: 9px;
@@ -185,6 +186,7 @@ input{
 .botones{
     display: flex;
     justify-content: center;
+    border: none;
 }
 .footer1{
     display: flex;
@@ -199,3 +201,25 @@ input{
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+button{
+    border: none;
+}
+
+/*--------------PseudoClases----------------*/
+input:focus{
+    background: #F0A83E;
+    border: none;
+}
+input:disabled{
+    background-color: #d2d2d2;
+}
+button:hover{
+    background: #f76402;
+}
+a:hover{
+    background: #f76402;
+}
+.reset:hover{
+    background: #302f2f;
+}
+

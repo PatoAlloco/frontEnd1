@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Be Vietnam Pro', sans-serif;
+    background: rgb(249, 249, 249);
 }
 /*========HEADER==========*/
 header{
@@ -12,7 +13,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background: rgb(249, 249, 249);
-    padding: 35px 45px;
+    padding: 5.20vw 11.45vw;
 }
 header nav ul{
     display: flex;
@@ -21,7 +22,7 @@ header nav ul{
     
 }
 header nav ul li{   
-  /**/      
+       
 }
 header nav ul li a{
     text-decoration: none;
@@ -29,16 +30,268 @@ header nav ul li a{
     font-size: 13px;
     font-style: normal;
     font-weight: 500 normal;
-    margin: 24px;
+    margin: 1.66vw;
 }
-header button{
+button{
     background: #F3603B;
     border: none;
+    box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
     padding: 10px;
     width: 134px;
+    height: 44px;
     border-radius: 50px;
     color: #ffffff;
     font-size: 13px;
     font-weight: 500 normal;
     font-style: normal;
+    line-height: 19px;
 }
+
+/*========= MAIN ==========*/
+/*======= SECTION 1 =======*/
+
+section.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+section.home article{
+    width: 37vw;
+} 
+section.home article h3{
+    font-size: 58px;
+    font-weight: 700 normal;
+    font-style: normal;
+    letter-spacing: -0.035em;
+    line-height: 66px;
+    color: #232C50;
+}
+section.home article p{
+    font-size: 16px;
+    font-weight: 500 normal;
+    font-style: normal;
+    line-height: 157%;
+    margin: 1.94vw 10.41vw 1.94vw 0;
+    color: #000000;
+}
+section.home img{
+    width: 37vw;
+    margin-left: 1.38vw;
+}
+
+/*==========SECTION 2==========*/
+section.nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6.95vw;
+    background: rgb(249, 249, 249);
+}
+section.nosotros article.art-A{
+    
+    width: 37vw;
+}
+section.nosotros article.art-A h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+    color: #232851;
+}
+section.nosotros article.art-A p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.5584px;
+    line-height: 157.1%;
+    margin: 1.94vw 10.41vw 1.94vw 0;
+    color: #000000;
+}
+section.nosotros article.art-B{
+    width: 37vw;
+}
+section.nosotros article.art-B div{
+    margin-bottom: 3.33vw;
+}
+section.nosotros article.art-B h6{
+    display: flex;
+    align-items: center;    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    margin-bottom: 1.25vw;
+    color: #323851;
+}
+section.nosotros article.art-B p{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2984px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    margin: 0 3.47vw 0 6.25vw;    
+    color: #B3B2B7;
+}
+
+/*==========PseudoClase========*/
+section.nosotros article.art-B h6.bto-1::before{    
+    content: url(../imagenes/Button.png);
+    margin-right: 1.59vw;    
+}
+section.nosotros article.art-B h6.bto-2::before{    
+    content: url(../imagenes/Button2.png);
+    margin-right: 1.59vw;    
+}
+section.nosotros article.art-B h6.bto-3::before{    
+    content: url(../imagenes/Button3.png);
+    margin-right: 1.59vw;    
+}
+
+/*=========SECTION 3========*/
+section.testimonios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 4.86vw;
+    padding-top: 10px;
+}
+section.testimonios h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.2143px;
+    line-height: 156.6%;
+    letter-spacing: -0.01em;
+    color: #242E53;
+    padding-bottom: 5.2vw;
+}
+section.testimonios div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+section.testimonios article{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 29vw;
+}
+section.testimonios div article span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.0714px;
+    line-height: 156.6%;
+    letter-spacing: -0.01em;
+    color: #3F4868;
+    padding: 1.5vw;
+}
+section.testimonios div article p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 156.6%;
+    text-align: center;
+    color: #B9B9C1;
+    padding-bottom: 5.65vw;
+}
+
+/*=========SECTION 4==========*/
+section.pre-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.45vw 11.45vw;
+    background: #F3613C;
+    margin-top: 13.54vw;
+}
+section.pre-footer p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+}
+section.pre-footer button{
+    padding: 10px;
+    width: 134px;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.1806px;
+    line-height: 19px;
+    color: #F3603B;
+}
+
+/*=======FOOTER========*/
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.68vw 11.45vw 4.86vw;
+    background: #1E1E26;
+}
+footer section.logo-footer{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+footer section.logo-footer div.sociales{
+    margin-top: 4.5vw;
+}
+footer i{
+    margin-left: 9px;
+}
+footer ul li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    list-style-type: none;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+footer input{
+    padding: 10px;
+    position: static;
+    width: 201px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    margin: 9px;
+}   
+footer button{
+    padding: 10px;
+    position: static;
+    width: 63px;
+    height: 42px;
+    background: #F3603B;
+    border-radius: 50px;
+}
+footer span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+    color: #8C8C94;
+    padding-top: 5vw;
+}
+

@@ -21,9 +21,6 @@ header nav ul{
     text-decoration: none;
     
 }
-header nav ul li{   
-       
-}
 header nav ul li a{
     text-decoration: none;
     color: #242E52;
@@ -46,7 +43,9 @@ button{
     font-style: normal;
     line-height: 19px;
 }
-
+header img.hamburguesa{
+    display: none;
+}
 /*========= MAIN ==========*/
 /*======= SECTION 1 =======*/
 
@@ -60,11 +59,11 @@ section.home article{
     width: 37vw;
 } 
 section.home article h3{
-    font-size: 58px;
+    font-size: 3.625rem;
     font-weight: 700 normal;
     font-style: normal;
     letter-spacing: -0.035em;
-    line-height: 66px;
+    line-height: 4.125rem;
     color: #232C50;
 }
 section.home article p{
@@ -88,11 +87,10 @@ section.nosotros{
     margin-top: 6.95vw;
     background: rgb(249, 249, 249);
 }
-section.nosotros article.art-A{
-    
+section.nosotros article.art-A{    
     width: 37vw;
 }
-section.nosotros article.art-A h4{
+section.nosotros article.art-A h1{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -162,7 +160,7 @@ section.testimonios{
 section.testimonios h5{
     font-style: normal;
     font-weight: 700;
-    font-size: 39.2143px;
+    font-size: 2.5rem;
     line-height: 156.6%;
     letter-spacing: -0.01em;
     color: #242E53;
@@ -214,10 +212,13 @@ section.pre-footer{
 section.pre-footer p{
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 2.5rem;
+    line-height: 3rem;
     letter-spacing: -0.005em;
     color: #FFFFFF;
+}
+section.pre-footer p.p-mobile{
+    display: none;
 }
 section.pre-footer button{
     padding: 10px;
@@ -251,17 +252,28 @@ footer section.logo-footer div.sociales{
     margin-top: 4.5vw;
 }
 footer i{
-    margin-left: 9px;
+    margin: 6px;
+    font-size: 20px;
+}
+footer div.links{
+    display: flex;
+    justify-content: space-between;
+    background: red;
 }
 footer ul li{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 23px;
-    list-style-type: none;
-    color: #FFFFFF;
-    padding-bottom: 10px;
+    list-style-type: none;    
+    padding-bottom: 10px;    
 }
+footer a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 footer form{
     display: flex;
     flex-direction: column;
@@ -295,3 +307,146 @@ footer span{
     padding-top: 5vw;
 }
 
+/*=======PseudoClases=========*/
+a:hover{
+    color: #F3603B;
+}
+button:hover{    
+    transform: scale(1.2);
+    transition: 500ms;
+}
+section.pre-footer button:active{
+    background: #ec9079;
+    box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+    color: #FFFFFF;
+}
+button:active{
+    background: #ec9079;
+    box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+}
+i:hover{
+    color: #F3603B;
+}
+
+/*=========MEDIAQUERYS=========*/
+
+@media(max-width: 375px){
+    header{
+        padding: 10vw 5vw;
+    }
+    header nav{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+    header img.hamburguesa{
+        display: flex;
+    }
+
+    /*====SECTION 1====*/
+    section.home{
+        flex-direction: column-reverse;
+    }
+    section.home article{
+        width: 98vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    section.home img{
+        width: 90vw;
+        margin-top: 1.38vw;
+    }
+    section.home article h3{
+        font-size: 2.9rem;/*3.625*/
+        line-height: 3.5rem; /*4.125*/
+    }
+    section.home article p{
+        margin: 3vw 2vw 5vw 2vw;
+        color: #B9B9C1;
+    }
+
+    /*=====SECTION 2=====*/
+    section.nosotros{
+        width: 98vw;
+        flex-direction: column;
+    }
+    section.nosotros article.art-A{
+        width: 98vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2vw;
+    }
+    section.nosotros article.art-A h1{
+        margin: 15vw 2vw 2vw;
+        text-align: center;
+    }
+    section.nosotros article.art-A p{
+        margin: 2vw 2vw 10vw;
+        text-align: center;
+        color: #B9B9C1;
+    }
+    section.nosotros article.art-B {
+        width: 98vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.nosotros article.art-B div h6{
+        padding-left: 3vw;
+        margin: 2vw ;
+    }
+    section.nosotros article.art-B p{
+        margin-bottom: 6vw;
+    }
+
+    /*=======SECTION 3======*/
+
+    section.testimonios h5{
+        font-size: 2.2rem;
+        margin-top: 10vw;
+    }
+    section.testimonios div{
+        flex-direction: column;
+        align-items: center;        
+    }
+    section.testimonios article{
+        width: 98vw;
+        margin-top: 9vw;
+    }
+    section.testimonios article p{
+        padding: 10px;
+    }
+
+    /*======SECTION 4======*/
+    section.pre-footer{
+        flex-direction: column;
+        padding: 20vw 9vw;
+    }
+    section.pre-footer p{
+        display: none;
+    }
+    section.pre-footer p.p-mobile{
+        display: flex;
+        text-align: center;
+        font-size: 2.16rem;
+        line-height: 3rem;
+        margin-bottom: 10vw;
+    }
+
+    /*======FOOTER=====*/
+    footer{
+        flex-direction: column-reverse;
+    }
+    footer span{
+        display: none;
+    }
+    
+
+
+
+}

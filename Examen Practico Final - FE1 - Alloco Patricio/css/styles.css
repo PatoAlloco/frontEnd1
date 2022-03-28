@@ -12,7 +12,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
+    
     background: rgb(249, 249, 249);
     padding: 5.20vw 11.45vw;
 }
@@ -356,6 +356,7 @@ i:hover{
 
 @media(max-width: 375px){
     header{
+        background-image: url(/imagenes/bg-tablet-pattern.svg);
         padding: 10vw 5vw;
     }
     header nav{

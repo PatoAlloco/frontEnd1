@@ -11,9 +11,8 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
     
-    background: rgb(249, 249, 249);
     padding: 5.20vw 11.45vw;
 }
 header nav ul{
@@ -282,6 +281,7 @@ footer i{
 footer div.links{
     display: flex;
     justify-content: space-between;
+    width: 25vw;
 }
 footer ul li{
     font-size: 16px;
@@ -355,8 +355,10 @@ i:hover{
 /*=========MEDIAQUERYS=========*/
 
 @media(max-width: 375px){
-    header{
+    header{        
         background-image: url(/imagenes/bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        background-position: -25%;
         padding: 10vw 5vw;
     }
     header nav{
@@ -376,6 +378,9 @@ i:hover{
     /*====SECTION 1====*/
     section.home{
         flex-direction: column-reverse;
+        background-image: url(/imagenes/bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        background-position: -15% 220%;
     }
     section.home article{
         display: flex;
@@ -450,6 +455,7 @@ i:hover{
     section.testimonios article p{
         padding: 10px;
     }
+        
 
     /*======SECTION 4======*/
     section.pre-footer{
